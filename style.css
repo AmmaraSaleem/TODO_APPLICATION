@@ -1,0 +1,137 @@
+body{
+    background-image: url(5.jpg);
+    
+    background-size: 100%;
+}
+
+h1{
+    font-size:5rem;
+    font-weight:50;
+    margin:auto;
+    color: brown;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.Heading{
+    font-weight: bold;
+    color:rgb(37, 127, 143);
+}
+.main_Container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     text-align:center;     
+}
+.main_Container .todo_items {
+    padding:0.5rem;
+    height:50px;
+    border:1px solid gray;
+   
+    outline:none;
+    width:500px;
+    font-size:1.4rem;
+    margin:0.25rem;
+    border-radius:25px;
+    
+    
+    
+
+}
+.Edit_btn {
+    margin: auto;
+   
+   color: gray;
+   border-radius: 50px;
+   border: 2px solid gray;
+   margin-left: 5px;
+   
+  
+}
+
+.Delete_btn{
+    margin-left: 700px;
+    
+    border-radius: 50px;
+    border: none;
+  
+   border: 2px solid gray;
+   
+}
+   
+   
+  
+
+
+
+.line{
+   
+    border: 2px solid gray;
+
+  
+    
+   
+}
+.li_text{
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+}
+
+.main_box{
+    
+  
+    
+    margin: auto;
+    width: 1000px;
+    
+    
+  
+}
+.addbtn{
+    height:50px;  
+    width:50px; 
+    border-radius:25px;
+    outline:none;
+    border:none;
+    background-color:gray;
+    cursor: pointer;
+    margin:0.25rem;
+}
+.addbtn:hover{
+   border: 1px solid gray;
+}
+@media screen and (max-width:600px)
+{
+
+   .main_box  {
+       width: 100%;
+      
+       
+      
+   }
+    }
+    @media screen and (max-width:600px)
+{
+ .Delete_btn{
+  margin-left: 50px;
+ 
+ }
+    }
+
+    #div1 {
+        font-size:28px;
+        margin-left: 30px;
+      }
+
+ .delete_icon{
+     cursor: pointer;
+     margin-top: 10px;
+     margin-left: 20px;
+ }
+
+     .hand{
+        margin-left: 20px;  
+     }
+    
+    
